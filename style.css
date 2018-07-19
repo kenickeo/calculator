@@ -1,0 +1,491 @@
+.background {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+   
+	position: relative;
+	top: 100px;
+	/*height: 5000px;*/
+	background: url('./images/bigstock-Numbers.jpg') no-repeat;
+	background-size: auto; 
+
+}
+.container {
+	max-width: 1000px;
+
+}
+
+.header {
+
+background-color: #2e5182;
+width: 200%;
+height: 100px;
+/*text-align: center;*/
+position: relative;
+top: -120px;
+left: -150px;
+}
+
+h1 {
+   
+    color: #7a96bc;
+    font-size: 70px;
+    font-family: 'Yanone-Kaffeesatz';
+    font-style: italic;
+    width: 50%;
+    height: 60px;
+	position: relative;
+	top: 10px;
+	left: 700px;
+}
+
+.creator {
+
+width: 50%;
+text-align: left;
+font-size: 10px;
+font-style: italic;
+position: relative;
+top: 30px;
+left: 120px;
+
+}
+.shell {
+
+background-color: #2d3d54;
+border-radius: 50px;
+position: relative;
+top: -50px;
+left: 650px;
+width: 500px;
+height: 600px;
+
+}
+
+.display {
+
+background-color: #a0cfab;
+border-radius: 10px;
+padding: 5px;
+color: #495352;
+position: relative;
+top: 50px;
+left: 50px;
+width: 400px;
+height: 100px;
+
+}
+
+#equation {
+  
+  font-size: 15px;
+  width: 300px;
+  font-family: 'Comfortaa';
+  font: bold;
+  text-align: right;
+  position: relative;
+  top: 6px;
+  left: 100px;
+  
+
+}
+
+#adjDis {
+
+font-size: 30px;
+width: 300px;
+font-family: 'Roboto', sans-serif;
+text-align: right;
+position: relative;
+top: 10px;
+left: 110px;
+
+}
+
+
+
+.btnset {
+
+position: relative;
+top: 70px;
+left: 25px;
+height: 350px;
+width: 400px;
+
+}
+
+#num1, #num4, #num7, #num2, #num5, #num8,#num3, #num6, #num9, #numC, #numCE, #numDiv, #numMul, #numSub, #numAdd, #numEq, #num0, #numDot{
+
+/*border: 1px solid #2e5182;*/
+border-radius: 5px;
+color: #fff;
+background-color: #575c62;
+font-size: 40px;
+height: 50px;
+width: 20%;
+margin: 10px;
+position: relative;
+top: 50px;
+left: 30px;
+
+}
+
+.btnshell:hover {
+
+cursor: pointer;
+
+}
+
+#numC, #numCE {
+
+	background-color: #b63452;
+}
+
+#num0, #numDot {
+
+position: relative;
+top: -21px;
+left: 45px;
+
+}
+
+#numDot {
+
+	width: 19%;
+}
+
+#num0 {
+
+width: 42%;
+
+
+}
+
+#numEq {
+
+height: 125px;
+
+}
+
+#adjC, #adj0, #adj1, #adj2, #adj3, #adj4, #adj5, #adj6, #adj7, #adj8, #adj9, #adjDiv, #adjMul, #adjSub, #adjAdd, #adjDot, #adjEq{
+    
+
+    height: 50%;
+    position: relative;
+    top: -11px;
+	left: 5px;
+}
+
+
+#adjCE {
+    
+    height: 50%;
+	position: relative;
+	top: -10px;
+	left: 2px;
+}
+
+#adj0 {
+    
+    width: 25%;
+	position: relative;
+	left: 60px;
+	
+}
+
+#adjDot {
+
+	position: relative;
+	left: 5px;
+}
+
+#adjEq {
+
+position: relative;
+top: 5px;
+
+}
+
+#adjC, #adjMul, #adjAdd, #adjEq {
+
+position: relative;
+left: 3px;
+
+}
+
+@media screen and (max-width: 992px){
+
+
+h1 {
+
+	position: relative;
+	left: 450px;
+}
+.shell {
+
+	position: relative;
+	left: 400px;
+}
+
+.header {
+
+width: 210%;
+
+position: relative;
+left: -135px;
+}
+
+.creator {
+
+position: relative;
+left: 50px;
+
+}
+.one, .two, .three, .four{
+
+width: 90px;
+position: relative;
+top: 50px;
+left: 30px;
+
+}
+
+.two {
+
+position: relative;
+top: 40px;
+
+}
+
+.three {
+
+position: relative;
+top: 30px;
+	
+}
+
+.four {
+
+position: relative;
+top: 20px;
+	
+}
+
+#num0 {
+
+width: 136%;
+position: relative;
+top: -860px;
+
+
+}
+
+#adj0 {
+
+	position: relative;
+	left: 50px;
+}
+#num1, #num4, #num7, #num2, #num5, #num8,#num3, #num6, #num9, #numC, #numCE, #numDiv, #numMul, #numSub, #numAdd{
+
+height: 50px;
+width: 80%;
+text-align: center;
+
+}
+
+#adjC, #adj1, #adj2, #adj3, #adj4, #adj5, #adj6, #adj7, #adj8, #adj9, #adjDiv, #adjMul, #adjSub, #adjAdd{
+
+    position: relative;
+	left: 5px;
+}
+
+#adjCE {
+
+position: relative;
+left: -5px;
+
+}
+
+#adjEq {
+
+	left: 5px;
+}
+
+#adjDot{
+
+position: relative;
+left: 3px;
+
+}
+
+#numEq {
+
+	width: 81%;
+	height: 115px;
+
+}
+/*column one horizontal position*/
+
+/*column two horizontal position*/
+#numCE, #num2, #num5, #num8{
+
+position: relative;
+left: 120px;
+
+}
+
+/*column three horizontal position*/
+
+#num9, #num6, #num3 {
+
+	position: relative;
+	left: 210px;
+
+}
+/*column four horizontal position*/
+
+#numSub, #numAdd, #numEq {
+
+	position: relative;
+	left: 300px;
+
+}
+
+#numSub {
+
+  position: relative;
+  top: -410px;
+
+}
+
+#numAdd {
+
+  position: relative;
+  top: -600px;
+
+}
+
+#numEq {
+
+  position: relative;
+  top: -790px;
+
+}
+/*row one vertical position*/
+
+#numC, #numCE, #numDiv, #numMul{
+
+position: relative;
+top: -10px;
+
+}
+
+#numDiv, #numMul{
+
+position: relative;
+left: 210px;
+
+}
+
+
+/*row two vertical position*/
+/*row three vertical position*/
+/*row four vertical position*/
+
+/*column one vertical position*/
+
+#num7, #num4, #num1 {
+
+   position: relative;
+   top: -200px;
+
+}
+
+#num4 {
+
+  position: relative;
+  top: -390px;
+
+}
+
+#num1 {
+
+  position: relative;
+  top: -580px;
+
+}
+
+/*column two vertical position*/
+#numCE {
+
+	position: relative;
+	top: -80px;
+}
+
+#num8 {
+
+	position: relative;
+	top: -270px;
+}
+
+#num5 {
+
+	position: relative;
+	top: -460px;
+}
+
+#num2 {
+
+	position: relative;
+	top: -650px;
+}
+
+#numDot {
+    
+    text-align: center;
+	position: relative;
+	top: -930px;
+	left: 225px;
+	width: 75px;
+}
+
+/*column three vertical position*/
+#numDiv {
+
+  position: relative;
+  top: -150px;
+
+}
+
+#num9 {
+
+position: relative;
+top: -340px;
+
+}
+
+#num6 {
+
+position: relative;
+top: -530px;
+	
+}
+
+#num3 {
+
+position: relative;
+top: -720px;
+	
+}
+/*column four vertical position*/
+
+#numMul {
+  position: relative;
+  top: -220px;
+  left: 300px;
+
+}
+}
